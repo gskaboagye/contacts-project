@@ -7,16 +7,16 @@ GET http://localhost:3000/contacts
 
 
 ### Local: Get one contact by ID
-GET http://localhost:3000/contacts/PASTE_CONTACT_ID_HERE
+GET http://localhost:3000/contacts/6a0109b33873fe8a02992bfa
 
 
 ### Render: Home route
-GET https://your-render-link.onrender.com
+GET https://contacts-project-itf5.onrender.com
 
 
 ### Render: Get all contacts
-GET https://your-render-link.onrender.com/contacts
+GET https://contacts-project-itf5.onrender.com/contacts
 
 
 ### Render: Get one contact by ID
-GET https://your-render-link.onrender.com/contacts/PASTE_CONTACT_ID_HERE
+GET https://contacts-project-itf5.onrender.com/contacts/6a0109b33873fe8a02992bfa
