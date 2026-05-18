@@ -1,22 +1,71 @@
 ### Local: Home route
 GET http://localhost:3000
 
-
 ### Local: Get all contacts
 GET http://localhost:3000/contacts
-
 
 ### Local: Get one contact by ID
 GET http://localhost:3000/contacts/6a0109b33873fe8a02992bfa
 
+### Local: Create contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "1999-05-10"
+}
+
+### Local: Update contact
+PUT http://localhost:3000/contacts/6a0109b33873fe8a02992bfa
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane@example.com",
+  "favoriteColor": "Red",
+  "birthday": "2000-01-01"
+}
+
+### Local: Delete contact
+DELETE http://localhost:3000/contacts/6a0109b33873fe8a02992bfa
 
 ### Render: Home route
 GET https://contacts-project-itf5.onrender.com
 
-
 ### Render: Get all contacts
 GET https://contacts-project-itf5.onrender.com/contacts
 
-
 ### Render: Get one contact by ID
 GET https://contacts-project-itf5.onrender.com/contacts/6a0109b33873fe8a02992bfa
+
+### Render: Create contact
+POST https://contacts-project-itf5.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "email": "alice@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1998-07-15"
+}
+
+### Render: Update contact
+PUT https://contacts-project-itf5.onrender.com/contacts/6a0109b33873fe8a02992bfa
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "email": "alicejohnson@example.com",
+  "favoriteColor": "Green",
+  "birthday": "1998-07-15"
+}
+
+### Render: Delete contact
+DELETE https://contacts-project-itf5.onrender.com/contacts/6a0109b33873fe8a02992bfa
