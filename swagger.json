@@ -5,9 +5,9 @@
     "description": "API documentation for the W02 Contacts Project",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://contacts-project-itf5.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "paths": {
     "/contacts": {
       "get": {
